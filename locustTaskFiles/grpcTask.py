@@ -42,7 +42,6 @@ class GrpcTask(TaskSet):
 	def sayhello(self):
 		name = 'Hello, how are you!'
 		task_name = sys._getframe().f_code.co_name
-		log_conf = LoggerConfig(LOG_FILE_NAME)
 		res = self.client.connect_without_cert(task_name=task_name,
 		                                       rpc_api_func=RpcApiTestColl.sayhello_rpc_api_test,
 		                                       name=name)
