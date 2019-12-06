@@ -1,0 +1,3 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"grpc","/sayhello",20,0,480,515,185,837,0,2.29
+"None","Aggregated",20,0,480,515,185,837,0,2.29
